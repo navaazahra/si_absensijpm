@@ -1,66 +1,75 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🚚 Sistem Informasi Absensi JPM (SI Absensi JPM)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+[![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com/)
+[![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
-## About Laravel
+> **SI Absensi JPM** adalah sistem informasi berbasis web yang dirancang khusus untuk mengelola, mencatat, dan memantau data kehadiran sopir secara terstruktur dan terintegrasi secara *real-time*.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 📸 Antarmuka Sistem (Screenshots)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+| Dashboard | Form Presensi Sopir |
+| :---: | :---: |
+| <img width="1366" alt="Dashboard" src="[https://github.com/user-attachments/assets/a10a3ac1-710f-4d24-ab6e-e9dc2464c6aa](https://github.com/user-attachments/assets/a10a3ac1-710f-4d24-ab6e-e9dc2464c6aa)" /> | <img width="543" alt="Form Presensi" src="[https://github.com/user-attachments/assets/f0100b51-3969-4d36-87c8-1ad555a6e1c4](https://github.com/user-attachments/assets/f0100b51-3969-4d36-87c8-1ad555a6e1c4)" /> |
 
-## Learning Laravel
+| Laporan Pimpinan | Rekap Data Presensi |
+| :---: | :---: |
+| <img width="1366" alt="Laporan Pimpinan" src="[https://github.com/user-attachments/assets/a8f4b1aa-07b0-4c16-8313-208075d0d22f](https://github.com/user-attachments/assets/a8f4b1aa-07b0-4c16-8313-208075d0d22f)" /> | <img width="1366" alt="Rekap Data Presensi" src="[https://github.com/user-attachments/assets/97d8ca05-37cb-408b-8367-91f35b13cd47](https://github.com/user-attachments/assets/97d8ca05-37cb-408b-8367-91f35b13cd47)" /> |
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 👥 Hak Akses & Peran Pengguna (User Roles)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Sistem ini menerapkan mekanisme **Multi-Role Authentication** yang membedakan hak akses berdasarkan wewenang:
 
-## Laravel Sponsors
+- **👨‍💼 Admin**
+  * Pengelolaan data master pengguna (Admin, Sopir, Pimpinan).
+  * Pengaturan jadwal penugasan dan armada operasional.
+  * Pemantauan dan koreksi data kehadiran harian.
+- **🚚 Sopir**
+  * Pencatatan presensi masuk dan keluar harian.
+  * Pemantauan riwayat kehadiran pribadi.
+- **👨‍💻 Pimpinan**
+  * Akses *dashboard* eksekutif ringkasan kehadiran.
+  * Monitoring laporan rekapitulasi presensi harian/bulanan.
+  * Ekspor laporan data absensi untuk evaluasi operasional.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+---
 
-### Premium Partners
+## 🚀 Fitur Utama
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- **Multi-Role Authentication & Security**: Pembatasan akses berbasis peran pengguna.
+- **Real-Time Attendance Logging**: Pencatatan data waktu presensi secara akurat.
+- **Interactive Dashboard**: Visualisasi ringkas statistik kehadiran untuk pimpinan dan admin.
+- **Reporting & Data Export**: Kemudahan dalam mencetak serta merekap laporan presensi.
+- **Responsive Layout**: Tampilan antarmuka yang optimal diakses lewat *desktop* maupun *mobile*.
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🛠️ Spesifikasi & Teknologi
 
-## Code of Conduct
+- **Back-End**: PHP (Laravel Framework)
+- **Front-End**: HTML5, CSS3, JavaScript, Blade Templating
+- **Build Tool**: Vite
+- **Database**: MySQL
+- **Version Control**: Git & GitHub
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 📁 Struktur Folder Utama
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```text
+si_absensijpm/
+├── app/
+│   ├── Http/Controllers/    # Logika bisnis (Admin, Sopir, Pimpinan)
+│   └── Models/              # Model data Eloquent (User, Absensi, dll)
+├── database/
+│   ├── migrations/          # Struktur tabel database
+│   └── seeders/             # Data awal / dummy role & user
+├── resources/
+│   └── views/               # Tampilan antarmuka (Blade Template)
+└── routes/
+    └── web.php              # Routing & middleware hak akses
