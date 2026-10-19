@@ -13,11 +13,11 @@
 
 | Dashboard | Form Presensi Sopir |
 | :---: | :---: |
-| <img width="1366" alt="Dashboard" src="[https://github.com/user-attachments/assets/a10a3ac1-710f-4d24-ab6e-e9dc2464c6aa](https://github.com/user-attachments/assets/a10a3ac1-710f-4d24-ab6e-e9dc2464c6aa)" /> | <img width="543" alt="Form Presensi" src="[https://github.com/user-attachments/assets/f0100b51-3969-4d36-87c8-1ad555a6e1c4](https://github.com/user-attachments/assets/f0100b51-3969-4d36-87c8-1ad555a6e1c4)" /> |
+| ![Dashboard](https://github.com/user-attachments/assets/a10a3ac1-710f-4d24-ab6e-e9dc2464c6aa) | ![Form Presensi](https://github.com/user-attachments/assets/f0100b51-3969-4d36-87c8-1ad555a6e1c4) |
 
 | Laporan Pimpinan | Rekap Data Presensi |
 | :---: | :---: |
-| <img width="1366" alt="Laporan Pimpinan" src="[https://github.com/user-attachments/assets/a8f4b1aa-07b0-4c16-8313-208075d0d22f](https://github.com/user-attachments/assets/a8f4b1aa-07b0-4c16-8313-208075d0d22f)" /> | <img width="1366" alt="Rekap Data Presensi" src="[https://github.com/user-attachments/assets/97d8ca05-37cb-408b-8367-91f35b13cd47](https://github.com/user-attachments/assets/97d8ca05-37cb-408b-8367-91f35b13cd47)" /> |
+| ![Laporan Pimpinan](https://github.com/user-attachments/assets/a8f4b1aa-07b0-4c16-8313-208075d0d22f) | ![Rekap Data Presensi](https://github.com/user-attachments/assets/97d8ca05-37cb-408b-8367-91f35b13cd47) |
 
 ---
 
